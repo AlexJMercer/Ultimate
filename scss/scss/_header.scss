@@ -1,0 +1,156 @@
+//Post header
+
+.header-content{
+  width: 100%;
+  height: 600px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  cursor: default;
+
+  .header-width{
+
+    &-30{
+      width: 30%;
+    }
+    &-35{
+      width: 35%;
+    }
+    &-40{
+      width: 40%;
+    }
+    &-45{
+      width: 45%;
+    }
+    &-50{
+      width: 50%;
+    }
+
+    @media screen and (max-width: 992px){
+      &-30{
+        width: 40%;
+      }
+      &-35{
+        width: 42.5%;
+      }
+      &-40{
+        width: 45%;
+      }
+      &-45{
+        width: 47.5%;
+      }
+    }
+  }
+
+  .header-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:600px;
+  }
+
+  .header-post{
+    position: relative;
+    margin-top: -330px;
+
+    /*@media screen and (max-width: 992px){
+      margin-top: -275px;
+    }
+
+    @media screen and (max-width: 768px){
+      margin-top: -300px;
+    }*/
+  }
+
+  .header-dual-img{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+
+    .header-left-block{
+      width: 35%;
+
+
+      .header-img-left{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height:600px;
+      }
+    }
+
+    .header-right-block{
+      width: 35%;
+
+      .header-img-right{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height:600px;
+      }
+    }
+
+  }
+}
+
+.header-profile{
+  //height: 20rem;
+  margin: 1.75rem 0;
+
+  .head-avatar{
+    margin: .25rem 0;
+  }
+
+  .head-text{
+    margin: 2.5rem 0;
+  }
+}
+
+.nav-header {
+  position: absolute;
+  z-index: 500;
+  top: 30px;
+  left: 3%;
+}
+
+.nav-header ul {
+  list-style: none;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+
+  li {
+    position: relative;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    display: block;
+    color: $black;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    border-radius: $border-radius;
+  }
+
+  ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: $grey;
+    padding: 0;
+  }
+}
+
+.nav-header ul li:hover {
+  // display: block;
+  opacity: 0.9;
+
+  > ul {
+    display: block;
+  }
+}

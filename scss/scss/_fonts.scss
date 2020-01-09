@@ -1,0 +1,187 @@
+
+/* Roboto Mono */
+
+    @font-face {
+    font-family: "Roboto Mono";
+    src: url('../fonts/RobotoMono-Regular.eot');
+    src: url('../fonts/RobotoMono-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoMono-Regular.woff2') format('woff2'),
+         url('../fonts/RobotoMono-Regular.woff') format('woff'),
+         url('../fonts/RobotoMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: "Roboto Mono";
+    src: url('../fonts/RobotoMono-Italic.eot');
+    src: url('../fonts/RobotoMono-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoMono-Italic.woff2') format('woff2'),
+         url('../fonts/RobotoMono-Italic.woff') format('woff'),
+         url('../fonts/RobotoMono-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    }
+
+    @font-face {
+    font-family: "Roboto Mono";
+    src: url('../fonts/RobotoMono-Bold.eot');
+    src: url('../fonts/RobotoMono-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoMono-Bold.woff2') format('woff2'),
+         url('../fonts/RobotoMono-Bold.woff') format('woff'),
+         url('../fonts/RobotoMono-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style:  normal;
+    }
+
+/* Roboto Condensed */
+
+    @font-face {
+    font-family: "Roboto Condensed";
+    src: url('../fonts/RobotoCondensed-Regular.eot');
+    src: url('../fonts/RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Regular.woff2') format('woff2'),
+         url('../fonts/RobotoCondensed-Regular.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: "Roboto Condensed";
+    src: url('../fonts/RobotoCondensed-Italic.eot');
+    src: url('../fonts/RobotoCondensed-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Italic.woff2') format('woff2'),
+         url('../fonts/RobotoCondensed-Italic.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    }
+
+    @font-face {
+    font-family: "Roboto Condensed";
+    src: url('../fonts/RobotoCondensed-Bold.eot');
+    src: url('../fonts/RobotoCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Bold.woff2') format('woff2'),
+         url('../fonts/RobotoCondensed-Bold.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    }    
+
+
+/* IBM Plex Sans Condensed */
+
+    @font-face {
+    font-family: "IBM Plex Sans Condensed";
+    src: url('../fonts/IBMPlexSansCondensed-Regular.eot');
+    src: url('../fonts/IBMPlexSansCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/IBMPlexSansCondensed-Regular.woff2') format('woff2'),
+         url('../fonts/IBMPlexSansCondensed-Regular.woff') format('woff'),
+         url('../fonts/IBMPlexSansCondensed-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: "IBM Plex Sans Condensed";
+    src: url('../fonts/IBMPlexSansCondensed-Italic.eot');
+    src: url('../fonts/IBMPlexSansCondensed-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/IBMPlexSansCondensed-Italic.woff2') format('woff2'),
+         url('../fonts/IBMPlexSansCondensed-Italic.woff') format('woff'),
+         url('../fonts/IBMPlexSansCondensed-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    }
+
+    @font-face {
+    font-family: "IBM Plex Sans Condensed";
+    src: url('../fonts/IBMPlexSansCondensed-Medium.eot');
+    src: url('../fonts/IBMPlexSansCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/IBMPlexSansCondensed-Medium.woff2') format('woff2'),
+         url('../fonts/IBMPlexSansCondensed-Medium.woff') format('woff'),
+         url('../fonts/IBMPlexSansCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: "IBM Plex Sans Condensed";
+    src: url('../fonts/IBMPlexSansCondensed-Bold.eot');
+    src: url('../fonts/IBMPlexSansCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/IBMPlexSansCondensed-Bold.woff2') format('woff2'),
+         url('../fonts/IBMPlexSansCondensed-Bold.woff') format('woff'),
+         url('../fonts/IBMPlexSansCondensed-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    }
+    
+/* IBM Plex Sans */
+
+    @font-face {
+    font-family: "IBM Plex Sans";
+    src: url('../fonts/IBMPlexSans-Regular.eot');
+    src: url('../fonts/IBMPlexSans-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/IBMPlexSans-Regular.woff2') format('woff2'),
+         url('../fonts/IBMPlexSans-Regular.woff') format('woff'),
+         url('../fonts/IBMPlexSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: "IBM Plex Sans ";
+    src: url('../fonts/IBMPlexSans-Italic.eot');
+    src: url('../fonts/IBMPlexSans-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/IBMPlexSans-Italic.woff2') format('woff2'),
+         url('../fonts/IBMPlexSans-Italic.woff') format('woff'),
+         url('../fonts/IBMPlexSans-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    }
+
+    @font-face {
+    font-family: "IBM Plex Sans ";
+    src: url('../fonts/IBMPlexSans-Bold.eot');
+    src: url('../fonts/IBMPlexSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/IBMPlexSans-Bold.woff2') format('woff2'),
+         url('../fonts/IBMPlexSans-Bold.woff') format('woff'),
+         url('../fonts/IBMPlexSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    }    
+
+/* IBM Plex Sans Condensed */
+
+    @font-face {
+    font-family: "EB Garamond";
+    src: url('../fonts/EBGaramond-Regular.eot');
+    src: url('../fonts/EBGaramond-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/EBGaramond-Regular.woff2') format('woff2'),
+         url('../fonts/EBGaramond-Regular.woff') format('woff'),
+         url('../fonts/EBGaramond-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: "EB Garamond";
+    src: url('../fonts/EBGaramond-Italic.eot');
+    src: url('../fonts/EBGaramond-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/EBGaramond-Italic.woff2') format('woff2'),
+         url('../fonts/EBGaramond-Italic.woff') format('woff'),
+         url('../fonts/EBGaramond-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    }
+
+    @font-face {
+    font-family: "EB Garamond";
+    src: url('../fonts/EBGaramond-Bold.eot');
+    src: url('../fonts/EBGaramond-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/EBGaramond-Bold.woff2') format('woff2'),
+         url('../fonts/EBGaramond-Bold.woff') format('woff'),
+         url('../fonts/EBGaramond-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal
+    }

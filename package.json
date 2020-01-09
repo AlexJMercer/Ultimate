@@ -1,0 +1,48 @@
+{
+  "name": "ultimate",
+  "version": "1.0.0",
+  "description": "Creating a custom Bootstrap theme",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UltimateMercer/Ultimate.git"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "author": "Ultimate Mercer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UltimateMercer/Ultimate/issues"
+  },
+  "homepage": "https://github.com/UltimateMercer/Ultimate#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-scss-lint": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "browserslist": [
+    "Chrome >= 35",
+    "Firefox >= 38",
+    "Edge >= 12",
+    "Explorer >= 10",
+    "iOS >= 8",
+    "Safari >= 8",
+    "Android 2.3",
+    "Android >= 4",
+    "Opera >= 12"
+  ]
+}

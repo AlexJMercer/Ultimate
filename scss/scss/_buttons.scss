@@ -1,0 +1,93 @@
+@import 'scss/shadow';
+
+.btn {
+  display: inline-block;
+  font-family: $headings-font-family;
+  font-weight: 700;
+  color: $body-color;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  outline: 0;
+  border: 0;
+  margin: $btn-margin;
+  @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $input-btn-line-height, $btn-border-radius);
+  @include transition($btn-transition);
+  @include shadow-4dp();
+
+  /*&.btn-raised{
+    &:not(.btn-link){
+        
+    }
+  }*/
+
+  &.btn-rounded{
+    border-radius: $btn-rounded-border;
+  }
+
+  &.btn-flat{
+    border-radius: $border-radius-flat;
+  }
+
+  @include hover() {
+    text-decoration: none;
+  }
+
+  &:focus,
+  &.focus {
+    outline: 0;
+  }
+
+  // Disabled comes first so active can properly restyle
+  &.disabled,
+  &:disabled {
+    opacity: $btn-disabled-opacity;
+    @include box-shadow(none);
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active {
+    background-image: none;
+    //@include shadow-4dp();
+    box-shadow: none;
+
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+      //@include focus-shadow();
+    }
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+    @include button-variant($value, $value, $value);
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .btn-outline-#{$color} {
+    @include button-outline-variant($value);
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .btn-outline-v2-#{$color} {
+    @include button-outline-v2-variant($value);
+  }
+}
+
+.btn-gradient-peach {
+  @include button-gradient-variant($white, $gradient-peach);
+}
+.btn-gradient-aqua {
+  @include button-gradient-variant($white, $gradient-aqua);
+}
+.btn-gradient-purple {
+  @include button-gradient-variant($white, $gradient-purple);
+}
+.btn-gradient-blue {
+  @include button-gradient-variant($white, $gradient-blue);
+}
