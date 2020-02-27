@@ -37,9 +37,18 @@ $green:   #00c853;
 $teal:    #00bfa5;
 $cyan:    #00bcd4;
 $white:   #ffffff;
-$black:    #121212;
+$black:   #121212;
 $grey:    #eaeaea;
 $grey-blue: #1f2251;
+$polen: #fff6dd;
+$uv: #6733ff;
+
+// Customize the light and dark text colors for use in our YIQ color contrast function.
+$yiq-text-dark:             $black;
+$yiq-text-light:            $grey;
+
+// The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+$yiq-contrasted-threshold:  128;
 
 $colors: () !default;
 $colors: map-merge((
@@ -57,12 +66,14 @@ $colors: map-merge((
   "white":      $white,
   "black":      $black,
   "grey":       $grey,
-  "grey-blue":  $grey-blue
+  "grey-blue":  $grey-blue,
+  "polen":      $polen,
+  "uv":         $uv
 ), $colors);
 
 $theme-colors: (
   primary: $blue2,
-  secondary: $gray-600,
+  secondary: $gray-400,
   success: $green,
   info: $blue,
   warning: $yellow,
@@ -73,7 +84,9 @@ $theme-colors: (
   orange: $orange,
   light: $grey,
   dark: $black,
-  grey-blue: $grey-blue
+  grey-blue: $grey-blue,
+  polen: $polen,
+  uv: $uv
 );
 
 $spacer: 1rem;
@@ -106,6 +119,8 @@ $border-radius:          0.125rem;
 $border-radius-lg:       0.625rem;
 //$border-radius-sm:       0.125rem;
 $border-radius-flat:     0;
+
+$card-spacer-x: 1rem;
 
 $font-weight-custom: 600;
 $font-size-custom: .75rem;
@@ -157,6 +172,7 @@ $btn-outline-padding-y:         .7rem;
 $btn-outline-padding-y-lg:      .88rem;
 $btn-outline-padding-y-sm:      .38rem;
 
+$card-img-overlay-padding: 1rem;
 
 $input-padding-x:                0;//.75rem;
 $input-padding-y:                .5rem;
@@ -197,8 +213,8 @@ $badge-pill-border-radius:    10rem;
 
 $tooltip-padding-y:           .5rem;
 $tooltip-padding-x:           .75rem;
-$tooltip-color:               $black;
-$tooltip-bg:                  $grey;
+$tooltip-color:               $grey;
+$tooltip-bg:                  $black;
 $tooltip-arrow-color:         $tooltip-bg;
 $tooltip-border-radius:       $border-radius;
 
@@ -225,4 +241,6 @@ $z-depth-5:          0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 
 // Transitions
 $transition-basic:            all .2s ease-in-out !default;
 $transition-hoverable:        all .55s ease-in-out !default;
+
+
 

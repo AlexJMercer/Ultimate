@@ -1,0 +1,10 @@
+@mixin marker-variant($background) {
+  color: color-yiq($background);
+  background-color: $background;
+
+  .link {
+    color: color-yiq($background);
+    text-decoration: underline;
+    font-weight: 500;
+  }
+}
