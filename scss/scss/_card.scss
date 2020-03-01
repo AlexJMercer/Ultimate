@@ -470,6 +470,10 @@
     min-height: 525px;
   }
 
+  &.card-post-sm{
+    min-height: 225px;;
+  }
+
   .card-background-image{
     background-position: center;
     background-size: cover;
@@ -485,3 +489,33 @@
   }*/
 
 }
+
+ .card-horizontal-post{
+  min-height:300px;
+
+  &-sm{
+        min-height:225px;
+  }
+
+  &-avatar{
+        min-height:300px;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+
+        &-sm{
+          min-height:225px;
+          background-position: center;
+          background-size: cover;
+          width: 100%;
+          height: 100%;
+        }
+    }
+
+}
+
+    
+
+    
+
