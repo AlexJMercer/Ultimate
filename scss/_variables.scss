@@ -42,7 +42,8 @@ $grey:    #eaeaea;
 $grey-blue: #1f2251;
 $polen: #fff6dd;
 // $uv: #6733ff;
-$uv: #480BFF;
+//$uv: #480BFF;
+$uv: #3e04b4;
 
 // Customize the light and dark text colors for use in our YIQ color contrast function.
 $yiq-text-dark:             $black;
@@ -116,12 +117,15 @@ $gradient-aqua:       linear-gradient(40deg, #3aa2ff, #1fffac);
 $gradient-purple:     linear-gradient(40deg, #ff88ce, #8f8bf7);
 $gradient-blue:       linear-gradient(40deg, #5ed1fc, #3647b3);
 
-$border-radius:          0.125rem;
+$border-radius:          0.25rem;
 $border-radius-lg:       0.625rem;
-//$border-radius-sm:       0.125rem;
+$border-radius-sm:       0.125rem;
 $border-radius-flat:     0;
 
+$border-width-lg: 5px;
+
 $card-spacer-x: 1rem;
+$card-bg: $grey;
 
 $font-weight-custom: 600;
 $font-size-custom: .75rem;
@@ -152,9 +156,9 @@ $input-btn-padding-x-lg:    2.375rem;
 //$btn-font-weight:                $font-weight-custom;
 $btn-font-size:                  1rem;
 $btn-rounded-border:             10em;
-$btn-border-radius:              $border-radius;
-$btn-border-radius-lg:           $border-radius;
-$btn-border-radius-sm:           $border-radius;
+$btn-border-radius:              $border-radius-sm;
+$btn-border-radius-lg:           $border-radius-sm;
+$btn-border-radius-sm:           $border-radius-sm;
 $btn-transition: all 0.15s ease-in-out;
 
 // Buttons
@@ -211,10 +215,11 @@ $badge-pill-padding-x:        .75em;
 // Use a higher than normal value to ensure completely rounded edges when
 // customizing padding or font-size on labels.
 $badge-pill-border-radius:    10rem;
+$badge-border-radius: $border-radius-sm;
 
-$tooltip-padding-y:           .5rem;
-$tooltip-padding-x:           .75rem;
-$tooltip-color:               $grey;
+$tooltip-padding-y:           .75rem;
+$tooltip-padding-x:           1rem;
+$tooltip-color:               $white;
 $tooltip-bg:                  $black;
 $tooltip-arrow-color:         $tooltip-bg;
 $tooltip-border-radius:       $border-radius;

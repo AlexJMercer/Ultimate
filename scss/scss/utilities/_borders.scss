@@ -1,0 +1,11 @@
+.border-lg         { border: $border-width-lg solid $border-color !important; }
+.border-top-lg     { border-top: $border-width-lg solid $border-color !important; }
+.border-right-lg   { border-right: $border-width-lg solid $border-color !important; }
+.border-bottom-lg  { border-bottom: $border-width-lg solid $border-color !important; }
+.border-left-lg    { border-left: $border-width-lg solid $border-color !important; }
+
+@each $color, $value in $theme-colors {
+  .border-top-#{$color} {
+    border-top-color: $value !important;
+  }
+}
