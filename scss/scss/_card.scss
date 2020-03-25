@@ -457,7 +457,7 @@
   border-radius: $border-radius;
   background-position: center;
   background-size: cover;
-  min-height: 350px;
+  min-height: 375px;
   transition: -webkit-transform .2s;
     transition: transform .2s;
     transition: transform .2s, -webkit-transform .2s;
@@ -473,6 +473,7 @@
 
   &.card-post-sm{
     min-height: 200px;
+    border-radius: $border-radius-lg;
   }
 
   .card-background-image{

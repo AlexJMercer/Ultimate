@@ -1,1 +1,1 @@
-import '/../scss/ultimate.scss';
+import '../scss/ultimate.scss';

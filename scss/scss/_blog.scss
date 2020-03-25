@@ -35,21 +35,25 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .blog-title {
-  font-size: 2.5rem;
+  //font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.37;
-  margin-bottom: 1.25rem;
+  margin-bottom: .5rem;
 }
 
 .blog-meta {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.15rem;
   line-height: 1.37;
 }
 
 @media screen and (max-width: 768px) {
     .blog-title{
-    font-size: 2.25rem;
-  }
+      font-size: 2rem;
+    }
+
+    .blog-meta {
+      font-size: 1.1875rem;
+    }
 
 }
 
@@ -148,6 +152,11 @@ h1, h2, h3, h4, h5, h6 {
   .post{
     margin-bottom: 2rem;
     line-height: 1.33;
+    font-size: 1.3125rem; //21px
+
+    @media screen and (max-width: 992px){
+      font-size: 1.1875rem;//19px
+    }
 
     
     /*@media screen and (min-width: 992px){
@@ -217,22 +226,22 @@ h1, h2, h3, h4, h5, h6 {
 
     &.serif{
     font-family: "EB Garamond", serif;
-    font-size: 1.33rem;
+    //font-size: 1.33rem;
     }
 
     &.monospace{
       font-family: "Roboto Mono", monospace;
-      font-size: 1.20rem;
+      //font-size: 1.20rem;
     }
 
     &.condensed{
       font-family: "Roboto Condensed", sans-serif;
-      font-size: 1.25rem;
+      //font-size: 1.25rem;
     }
 
     &.sans{
       font-family: "IBM Plex Sans", sans-serif;
-      font-size: 1.25rem;
+      //font-size: 1.25rem;
     }
 
 
