@@ -13,7 +13,7 @@
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  font-family: $font-family-base;
+  font-family: $font-family-base !important;
   @include border-radius($badge-border-radius);
   
   //@include transition($badge-transition);
