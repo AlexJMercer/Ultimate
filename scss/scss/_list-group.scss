@@ -1,0 +1,48 @@
+// Individual list items
+//
+// Use on `li`s or `div`s within the `.list-group` parent.
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: $list-group-item-padding-y $list-group-item-padding-x;
+  color: $list-group-color;
+  background-color: $list-group-bg;
+  border: none;
+
+  &:first-child {
+    @include border-top-radius($list-group-border-radius);
+  }
+
+  &:last-child {
+    @include border-bottom-radius($list-group-border-radius);
+  }
+
+  &.disabled,
+  &:disabled {
+    color: $list-group-disabled-color;
+    pointer-events: none;
+    background-color: $list-group-disabled-bg;
+  }
+
+  // Include both here for `<a>`s and `<button>`s
+  &.active {
+    z-index: 2; // Place active items above their siblings for proper border styling
+    color: $list-group-active-color;
+    background-color: $list-group-active-bg;
+  }
+
+  & + & {
+    border-top-width: 0;
+
+    &.active {
+      margin-top: -$list-group-border-width;
+    }
+  }
+}
+
+
+
+@each $color, $value in $theme-colors {
+  @include list-group-item-variant($color, theme-color-level($color, -2));
+}

@@ -129,12 +129,11 @@ $card-bg: $grey;
 
 $font-weight-custom: 600;
 $font-size-custom: .75rem;
-$font-family-sans-serif:    "Roboto Mono", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$font-family-sans-serif:    "Fira Code", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 $font-family-base:          $font-family-sans-serif;
 
-$font-family-serif: "EB Garamond", serif;
+$font-family-serif: "IBM Plex Serif", serif;
 $font-family-monospace: "Roboto Mono", monospace;
-$font-family-condensed: "Roboto Condensed", sans-serif;
 $font-family-sans-extra: "IBM Plex Sans", sans-serif;
 
 $headings-font-family:   "IBM Plex Sans Condensed", sans-serif;
@@ -179,16 +178,16 @@ $btn-outline-padding-y-sm:      .38rem;
 
 $card-img-overlay-padding: 1rem;
 
-$input-padding-x:                0;//.75rem;
+$input-padding-x:                .25rem;//.75rem;
 $input-padding-y:                .5rem;
 
-$input-padding-x-sm:             0;//.5rem;//8px
+$input-padding-x-sm:             .125rem;//.5rem;//8px
 $input-padding-y-sm:             .25rem;//4px
 
-$input-padding-x-lg:             0;//1.5rem;//24px
+$input-padding-x-lg:             .25rem;//1.5rem;//24px
 $input-padding-y-lg:             .75rem;//12px
 
-$input-line-height:              1.25;
+$input-line-height:              1.3333;
 
 $input-transition:              background 0s ease-out;
 

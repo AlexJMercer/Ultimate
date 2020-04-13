@@ -53,11 +53,11 @@
 
   .header-post{
     position: relative;
-    margin-top: -300px;
+    margin-top: -325px;
 
     &-alt{
       position: relative;
-      margin-top: -225px;
+      margin-top: -240px;
     }
 
     @media screen and (max-width: 768px){
@@ -178,12 +178,12 @@
 }
 
 .header-simple{
-  margin: 3rem 0;
-  padding-top: 2.5rem;
+  margin: 1.5rem 0;
+  padding-top: 2rem;
   height: auto;
 
   &-info{
-    margin: 0.5rem 0 1.75rem;
+    margin: 0.255rem 0 2rem;
   }
 }
 

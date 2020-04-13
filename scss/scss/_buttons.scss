@@ -3,7 +3,7 @@
 .btn {
   display: inline-block;
   font-family: $headings-font-family;
-  font-weight: 600;
+  font-weight: 700;
   color: $body-color;
   text-align: center;
   vertical-align: middle;
@@ -15,10 +15,11 @@
   margin: .125rem;
   @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $input-btn-line-height, $btn-border-radius);
   @include transition($btn-transition);
+  
   @include shadow-4dp();
-
+    
   /*&.btn-raised{
-    &:not(.btn-link){
+    &:not(.button-outline-*){
         
     }
   }*/

@@ -115,18 +115,15 @@
   }
 }
 
-.card-material{
-  padding: 3.125rem 0;
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-  margin-top: -2.50rem;
-  background-color: $teal;
+.card-material-header{
+  padding: 1.25rem 0;
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+  margin-top: -2.5rem;
+  background-color: $black;
   color: $white;
+  border-radius: $border-radius !important;
   @include shadow-big-navbar();
-
-  &.thin{
-    padding: 1.5rem 0;
-  }
 }
 
 .card-footer {
@@ -142,25 +139,24 @@
 .card-picture {
   height: 60%;
   position: relative;
-  border-radius: $border-radius-flat;
-  //padding: 3.125rem 0;
-  //padding: 2.50rem 0;
-  margin-top: -1.25rem;
-  box-shadow: $z-depth-1;
+  border-radius: $border-radius !important;
+  margin-top: -1.75rem;
+  //box-shadow: $z-depth-1();
+  @include shadow-4dp();
 
   &.narrow{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
   }
 
   &.wider{
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
+    margin-left: -1.75rem;
+    margin-right: -1.75rem;
   }
 }
 
 .card-img-fit{
-  height: 17.5rem;
+  height: 15rem;
   object-fit: cover;
 }
 
