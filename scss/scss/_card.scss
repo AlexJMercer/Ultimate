@@ -56,19 +56,18 @@
   padding: $card-spacer-x;
   color: $card-color;
 
-  &.-alt{
-    padding: .5rem 0;
+  &.-alt {
+    padding: 0.5rem 0;
   }
 
-  &.-material{
+  &.-material {
     margin-bottom: 2rem;
   }
-  
 }
 
 .card-title {
   margin-bottom: $card-spacer-y;
-  &.-material{
+  &.-material {
     margin-top: 1.875rem;
   }
 }
@@ -115,7 +114,7 @@
   }
 }
 
-.card-material-header{
+.card-material-header {
   padding: 1.25rem 0;
   margin-left: 1.75rem;
   margin-right: 1.75rem;
@@ -144,23 +143,23 @@
   //box-shadow: $z-depth-1();
   @include shadow-4dp();
 
-  &.narrow{
+  &.narrow {
     margin-left: 1.75rem;
     margin-right: 1.75rem;
   }
 
-  &.wider{
+  &.wider {
     margin-left: -1.75rem;
     margin-right: -1.75rem;
   }
 }
 
-.card-img-fit{
+.card-img-fit {
   height: 15rem;
   object-fit: cover;
 }
 
-.card-img-raised{
+.card-img-raised {
   @include shadow-4dp;
 }
 
@@ -208,7 +207,6 @@
   @include border-radius($border-radius-sm);
 }
 
-
 // Card deck
 
 .card-deck {
@@ -232,11 +230,10 @@
   }
 }
 
-.card-content-bottom{
+.card-content-bottom {
   position: absolute;
   bottom: 10px;
 }
-
 
 //
 // Card groups
@@ -300,7 +297,6 @@
   }
 }
 
-
 //
 // Columns
 //
@@ -322,7 +318,6 @@
     }
   }
 }
-
 
 //
 // Accordion
@@ -348,7 +343,7 @@
   }
 }
 
-.card-masonry{
+.card-masonry {
   background: $black;
   position: relative;
   -webkit-transition: all 0.3s;
@@ -377,22 +372,23 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     text-align: center;
-
   }
   &:hover {
     //margin-top: -5px;
     -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-    .card-masonry-area-header, .card-masonry-area-center {
+    .card-masonry-area-header,
+    .card-masonry-area-center {
       opacity: 1;
     }
     .card-masonry-area-image {
       &.with-hover-overlay:before {
-        opacity: 0.90;
+        opacity: 0.9;
       }
     }
   }
-  h2:last-child, p:last-child {
+  h2:last-child,
+  p:last-child {
     margin-bottom: 0;
   }
   .card-masonry-area-image {
@@ -418,102 +414,103 @@
     }
   }
 }
-
-.card-featured-title{
+/*
+.card-featured-title {
   font-size: 1.5rem;
   font-weight: 700;
 }
 
-.card-common-title{
+.card-common-title {
   font-size: 1.25rem;
   font-weight: 700;
 }
 
-.card-subinfo{
+.card-subinfo {
   font-size: 1rem;
 }
 
-@media screen and (max-width: 768px){
-  .card-featured-title{
+@media screen and (max-width: 768px) {
+  .card-featured-title {
     font-size: 1.33rem;
     font-weight: 700;
   }
 
-  .card-common-title{
+  .card-common-title {
     font-size: 1.175rem;
     font-weight: 700;
   }
 
-  .card-subinfo{
-    font-size: .85rem;
+  .card-subinfo {
+    font-size: 0.85rem;
   }
 }
-
-.card-background{
+*/
+.card-background {
   border-radius: $border-radius;
-  background-position: center;
-  background-size: cover;
   min-height: 375px;
-  transition: -webkit-transform .2s;
-    transition: transform .2s;
-    transition: transform .2s, -webkit-transform .2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 
-  .card-body{
-    position: relative;
+  .card-body {
+    position: absolute;
     z-index: 2;
   }
 
-  &.card-featured-post{
+  &.card-featured-post {
     min-height: 500px;
   }
 
-  &.card-post-sm{
+  &.card-post-sm {
     min-height: 200px;
     border-radius: $border-radius-lg;
   }
 
-  .card-background-image{
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    
+  .card-background-image {
+    max-width: 100%;
+    height: 375px;
+    object-fit: cover;
+
+    &.featured-image {
+      height: 500px;
+    }
+
+    &.small {
+      height: 200px;
+    }
   }
+
+  // .card-background-image-featured {
+  // max-width: 100%;
+  // object-fit: cover;
+  // }
 
   /*@include hover(){
     transform: scale(1.01);
     -webkit-transform: scale(1.01);
   }*/
-
 }
 
- .card-horizontal-post{
-  min-height:300px;
+.card-horizontal-post {
+  min-height: 300px;
 
-  &-sm{
-        min-height:225px;
+  &-sm {
+    min-height: 225px;
   }
 
-  &-avatar{
-        min-height:300px;
-        background-position: center;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
+  &-avatar {
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 
-        &-sm{
-          min-height:225px;
-          background-position: center;
-          background-size: cover;
-          width: 100%;
-          height: 100%;
-        }
+    &-sm {
+      min-height: 225px;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
     }
-
+  }
 }
-
-    
-
-    
-

@@ -18,9 +18,9 @@
   }
 
   .nav-link {
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-    font-size: .875rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 0.875rem;
   }
 }
 
@@ -29,7 +29,7 @@
   font-family: "IBM Plex Sans Condensed", Roboto, sans-serif;
   font-weight: 700;
   line-height: 1.37;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .blog-meta {
@@ -40,14 +40,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .blog-title{
-      font-size: 2rem;
-    }
+  .blog-title {
+    font-size: 2rem;
+  }
 
-    .blog-meta {
-      font-size: 1.1875rem;
-    }
-
+  .blog-meta {
+    font-size: 1.1875rem;
+  }
 }
 
 /* Pagination */
@@ -60,24 +59,24 @@
   }
 }
 
-.title-line-height{
+.title-line-height {
   line-height: 1.37;
 }
 
-.marker{
-  padding: .125rem 0;
+.marker {
+  padding: 0.125rem 0;
   line-height: 1.45;
 
-  &.link{
-    padding: .25rem .5rem;
+  &.link {
+    padding: 0.25rem 0.5rem;
   }
 
-  &.sm-mark{
-    padding: .125rem 0;
+  &.sm-mark {
+    padding: 0.125rem 0;
   }
 
-  &.title{
-    padding: .125rem .125rem;
+  &.title {
+    padding: 0.125rem 0.125rem;
   }
 }
 
@@ -87,87 +86,91 @@
   }
 }
 
-
-.page-book{
+.page-book {
   line-height: 1.33;
   padding: 3.5rem 4rem;
   font-family: $font-family-serif;
   font-size: 1.33rem;
   background-color: $polen;
 
-  p{
+  p {
     margin: 0.25rem;
   }
 
   @media screen and (max-width: 768px) {
-    .page-book{
+    .page-book {
       padding: 1rem 1.5rem;
     }
   }
 }
 
-.page{
+.page {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-    
 
-  .post{
+  .post {
     margin-bottom: 2rem;
     line-height: 1.3333;
     font-size: 1.3125rem; //21px
 
-    @media screen and (max-width: 992px){
-      font-size: 1.1875rem;//19px
+    @media screen and (max-width: 992px) {
+      font-size: 1.1875rem; //19px
     }
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       font-family: "IBM Plex Sans Condensed", Roboto, sans-serif;
-      margin-top: 1.25rem; 
+      margin-top: 1.25rem;
       margin-bottom: 1rem;
     }
 
-    p, img, ul, ol, figure, blockquote, pre, code{
+    p,
+    img,
+    ul,
+    ol,
+    figure,
+    blockquote,
+    pre,
+    code {
       margin-bottom: 2rem;
     }
-    li{
+    li {
       margin-bottom: 0.25rem;
     }
 
-    &.serif{
-    font-family: $font-family-serif;
+    &.serif {
+      font-family: $font-family-serif;
     }
 
-    &.monospace{
+    &.monospace {
       font-family: $font-family-monospace;
       font-size: 1.1875rem !important;
     }
 
-    &.base{
+    &.base {
       font-family: $font-family-base;
     }
 
-    &.sans{
+    &.sans {
       font-family: $font-family-sans-extra;
     }
 
-    &.post-aux{
-      p{
+    &.post-aux {
+      p {
         -webkit-box-flex: 0;
         -webkit-flex: 0 0 0;
-            -ms-flex: 0 0 0;
-                flex: 0 0 0;
+        -ms-flex: 0 0 0;
+        flex: 0 0 0;
         max-width: 100%;
         margin-left: 10%;
       }
     }
   }
-
-
 }
 
-
- 
-
 /*# sourceMappingURL=blog.css.map */
-
