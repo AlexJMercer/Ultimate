@@ -8,46 +8,30 @@
   cursor: default;
 
   .header-width {
-    /*&-30{
-      width: 30%;
-    }
-    &-35{
-      width: 35%;
-    }*/
     &-40 {
       width: 40%;
     }
-    &-45 {
-      width: 45%;
-    }
     &-50 {
       width: 50%;
+    }
+    &-60 {
+      width: 60%;
     }
     &-full {
       width: 100%;
     }
 
     @media screen and (max-width: 992px) {
-      /*&-30{
-        width: 40%;
-      }
-      &-35{
-        width: 42.5%;
-      }*/
       &-40 {
         width: 45%;
-      }
-      &-45 {
-        width: 47.5%;
       }
     }
   }
 
   .header-image {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 100%;
     height: 650px;
+    object-fit: cover;
   }
 
   .header-post {
@@ -82,10 +66,9 @@
       width: 40%;
 
       .header-img-left {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        width: 100%;
         height: 650px;
+        object-fit: cover;
       }
     }
 
@@ -93,10 +76,9 @@
       width: 40%;
 
       .header-img-right {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        width: 100%;
         height: 650px;
+        object-fit: cover;
       }
     }
 

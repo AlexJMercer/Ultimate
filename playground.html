@@ -37,40 +37,81 @@
         transition-delay: 1s;
         position: relative;
       }
+
+      .diamond {
+        width: 0;
+        height: 0;
+        border: 50px solid transparent;
+        border-bottom-color: red;
+        position: relative;
+        top: -50px;
+      }
+      .diamond:after {
+        content: "";
+        position: absolute;
+        left: -50px;
+        top: 50px;
+        width: 0;
+        height: 0;
+        border: 50px solid transparent;
+        border-top-color: red;
+      }
     </style>
   </head>
   <body>
+    <div class="header-content mb-5">
+      <div class="header-width-50">
+        <div
+          class="header-image view duotone-bluered"
+          style="background-image: url('dist/img/emma-esp.jpg');"
+        >
+          <div class="mask texture-mask-4"></div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="col-12 px-lg-5">
+          <div class="header-post text-right">
+            <h1 class="blog-title mb-3">
+              <span class="marker marker-light title">
+                Ultimate Mercer: Be The Revolution, Join The Ultimates
+              </span>
+            </h1>
+            <h5 class="blog-meta mt-3">
+              <span class="marker marker-light">
+                25 de Abril por Ultimate Mercer
+              </span>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-content mb-5">
+      <div class="header-width-50 view">
+        <img class="header-image" src="dist/img/emma-esp.jpg" alt="" />
+        <div class="mask texture-mask-4"></div>
+      </div>
+      <div class="container-fluid">
+        <div class="col-12 px-lg-5">
+          <div class="header-post text-right">
+            <h1 class="blog-title mb-3">
+              <span class="marker marker-light title">
+                Ultimate Mercer: Be The Revolution, Join The Ultimates
+              </span>
+            </h1>
+            <h5 class="blog-meta mt-3">
+              <span class="marker marker-light">
+                25 de Abril por Ultimate Mercer
+              </span>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container my-5">
       <div class="row">
         <!--Teste-->
-        <div class="col-lg-4 col-md-8 col-12 offset-lg-0 offset-md-2">
-          <div class="card card-background card-featured-post view mb-3">
-            <img
-              src="dist/ex-img/e-w-mv-a-t.jpg"
-              alt=""
-              class="card-background-image featured-image"
-            />
-
-            <div class="card-body h-100 d-flex flex-column justify-content-end">
-              <h4 class="card-featured-title">
-                <span class="marker marker-dark">
-                  <strong>
-                    Ultimate Mercer: Be The Revolution, Join The Ultimates
-                  </strong>
-                </span>
-              </h4>
-              <div class="card-subinfo">
-                <span class="marker marker-orange sm-mark">
-                  <strong>Nerdstation</strong>
-                </span>
-                <span class="marker marker-dark sm-mark">
-                  Jan 20
-                </span>
-              </div>
-            </div>
-            <div class="mask texture-mask-6"></div>
-          </div>
-        </div>
+        <span class="diamond">!</span>
       </div>
     </div>
 

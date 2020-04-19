@@ -44,9 +44,9 @@ $black: #121212;
 $grey: #eaeaea;
 $grey-blue: #1f2251;
 $polen: #fff6dd;
-// $uv: #6733ff;
-//$uv: #480BFF;
-$uv: #3e04b4;
+//$uv: #6733ff;
+$uv: #480bff;
+//$uv: #3e04b4;
 
 // Customize the light and dark text colors for use in our YIQ color contrast function.
 $yiq-text-dark: $black;
@@ -126,7 +126,7 @@ $spacers: map-merge(
 $body-bg: $grey;
 $body-color: $black;
 
-$line-height-base: 1.3333;
+$line-height-base: 1.5;
 
 $gradient-peach: linear-gradient(40deg, #ffd86f, #fc6262);
 $gradient-aqua: linear-gradient(40deg, #3aa2ff, #1fffac);

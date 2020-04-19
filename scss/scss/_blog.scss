@@ -67,16 +67,21 @@
   padding: 0.125rem 0;
   line-height: 1.45;
 
-  &.link {
+  &.marker-link {
     padding: 0.25rem 0.5rem;
+    text-decoration: none;
   }
 
-  &.sm-mark {
+  &.marker-small {
     padding: 0.125rem 0;
   }
 
-  &.title {
+  &.marker-title {
     padding: 0.125rem 0.125rem;
+  }
+
+  &.marker-tag {
+    padding: 0.25rem 0.5rem;
   }
 }
 
