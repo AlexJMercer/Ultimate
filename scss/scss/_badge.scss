@@ -6,7 +6,7 @@
 .badge {
   display: inline-block;
   padding: $badge-padding-y $badge-padding-x;
-  margin: .125rem;
+  margin: 0.125rem;
   @include font-size($badge-font-size);
   font-weight: $badge-font-weight;
   line-height: 1.25;
@@ -15,7 +15,7 @@
   vertical-align: baseline;
   font-family: $font-family-monospace !important;
   @include border-radius($badge-border-radius);
-  
+
   //@include transition($badge-transition);
 
   @at-root a#{&} {
@@ -24,7 +24,7 @@
     }
   }
 
-  &.flat{
+  &.badge-flat {
     border-radius: 0;
   }
 
@@ -48,6 +48,11 @@
   padding-right: $badge-pill-padding-x;
   padding-left: $badge-pill-padding-x;
   @include border-radius($badge-pill-border-radius);
+}
+
+.badge-tag {
+  font-size: 85%;
+  padding: $badge-padding-y $badge-padding-y;
 }
 
 // Colors

@@ -155,7 +155,7 @@
 }
 
 .card-img-fit {
-  height: 15rem;
+  height: 275px;
   object-fit: cover;
 }
 
@@ -458,7 +458,7 @@
   }
 
   &.card-featured-post {
-    min-height: 500px;
+    min-height: 525px;
   }
 
   &.card-post-sm {
@@ -472,7 +472,7 @@
     object-fit: cover;
 
     &.featured-image {
-      height: 500px;
+      height: 525px;
     }
 
     &.small {
