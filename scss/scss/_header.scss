@@ -4,7 +4,7 @@
   position: relative;
   display: inline-flex;
   width: 100%;
-  height: 650px;
+  min-height: 650px;
   margin-bottom: 2rem;
   overflow: hidden;
   cursor: default;
@@ -24,11 +24,10 @@
     }
 
     @media screen and (max-width: 540px) {
-      /*&-40,
-      &-50,
+      &-40,
       &-60 {
-        width: 100%;
-      }*/
+        width: 50%;
+      }
     }
   }
 
@@ -36,55 +35,27 @@
     width: 100%;
     height: 650px;
     object-fit: cover;
+
+    &-full {
+      width: 100%;
+      height: 725px;
+      object-fit: cover;
+    }
   }
 
   .header-info {
     position: absolute;
     right: 0;
-    top: 200px;
+    top: 175px;
     padding: 0 1rem;
     text-align: right;
 
     &-full {
       position: absolute;
       left: 0;
-      top: 425px;
+      top: 450px;
       padding: 0 2.5rem;
       text-align: left;
-    }
-  }
-
-  .header-dual-img {
-    width: 100%;
-    height: 650px;
-    display: flex;
-    justify-content: space-between;
-
-    .header-left-block {
-      width: 40%;
-
-      .header-img-left {
-        width: 100%;
-        height: 650px;
-        object-fit: cover;
-      }
-    }
-
-    .header-right-block {
-      width: 40%;
-
-      .header-img-right {
-        width: 100%;
-        height: 650px;
-        object-fit: cover;
-      }
-    }
-
-    @media screen and (max-width: 768px) {
-      .header-right-block,
-      .header-left-block {
-        width: 50%;
-      }
     }
   }
 }
@@ -167,13 +138,18 @@
 
 @media screen and (max-width: 768px) {
   .header-content {
+    .header-image {
+      &-full {
+        height: 650px;
+      }
+    }
     .header-info {
-      top: 125px;
-      padding: 0 1rem 0 0.25rem;
+      top: 100px;
+      padding: 0 0.5rem 0 0.25rem;
 
       &-full {
-        top: 400px;
-        padding: 0 1.5rem;
+        top: 425px;
+        padding: 0 0.75rem;
       }
     }
   }
