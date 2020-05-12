@@ -1,34 +1,43 @@
-@import 'scss/shadow';
+@import "scss/shadow";
 
 .btn {
   display: inline-block;
   font-family: $headings-font-family;
-  font-weight: 700;
+  font-weight: 600;
   color: $body-color;
   text-align: center;
   vertical-align: middle;
   user-select: none;
   background-color: transparent;
   text-transform: uppercase;
+  letter-spacing: 1px;
   outline: 0;
   border: 0;
-  margin: .125rem;
-  @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $input-btn-line-height, $btn-border-radius);
+  margin: 0.125rem 0.25rem;
+  @include button-size(
+    $btn-padding-y,
+    $btn-padding-x,
+    $btn-font-size,
+    $input-btn-line-height,
+    $btn-border-radius
+  );
   @include transition($btn-transition);
-  
-  @include shadow-4dp();
-    
-  /*&.btn-raised{
-    &:not(.button-outline-*){
-        
-    }
-  }*/
 
-  &.btn-rounded{
+  //@include shadow-4dp();
+
+  &.btn-raised {
+    @include shadow-2dp();
+
+    @include hover() {
+      @include shadow-4dp();
+    }
+  }
+
+  &.btn-rounded {
     border-radius: $btn-rounded-border;
   }
 
-  &.btn-flat{
+  &.btn-flat {
     border-radius: $border-radius-flat;
   }
 
@@ -153,9 +162,21 @@ fieldset:disabled a.btn {
 //
 
 .btn-lg {
-  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-font-size-lg, $btn-line-height-lg, $btn-border-radius-lg);
+  @include button-size(
+    $btn-padding-y-lg,
+    $btn-padding-x-lg,
+    $btn-font-size-lg,
+    $btn-line-height-lg,
+    $btn-border-radius-lg
+  );
 }
 
 .btn-sm {
-  @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-line-height-sm, $btn-border-radius-sm);
+  @include button-size(
+    $btn-padding-y-sm,
+    $btn-padding-x-sm,
+    $btn-font-size-sm,
+    $btn-line-height-sm,
+    $btn-border-radius-sm
+  );
 }
