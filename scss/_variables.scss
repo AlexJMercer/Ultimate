@@ -50,7 +50,7 @@ $uv: #480bff;
 
 // Customize the light and dark text colors for use in our YIQ color contrast function.
 $yiq-text-dark: $black;
-$yiq-text-light: $grey;
+$yiq-text-light: $white;
 
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
 $yiq-contrasted-threshold: 128;
@@ -210,7 +210,7 @@ $input-transition: background 0s ease-out;
 $input-btn-border-width: 0; // For form controls and buttons
 $input-box-shadow: none;
 
-$alert-border-radius: $border-radius-flat;
+$alert-border-radius: $border-radius-sm;
 
 $alert-padding-y: 1.25rem;
 $alert-padding-x: 1.25rem;
