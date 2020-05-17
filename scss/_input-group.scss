@@ -1,7 +1,7 @@
 .input-group-text {
   display: flex;
   align-items: center;
-  padding: $input-padding-y .75rem;
+  padding: $input-padding-y 0.75rem;
   margin-bottom: 0; // Allow use of <label> elements by overriding our default margin-bottom
   @include font-size($input-font-size); // Match inputs
   font-weight: $input-font-weight;
@@ -11,7 +11,7 @@
   white-space: nowrap;
   background-color: $black;
   border: $input-border-width solid $input-group-addon-border-color;
-  @include border-radius($border-radius);
+  @include border-radius($border-radius-flat);
 
   // Nuke default margins from checkboxes and radios to vertically center within.
   input[type="radio"],

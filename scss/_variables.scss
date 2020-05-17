@@ -9,7 +9,7 @@ $gray-600: #868e96;
 $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
-$black: #000;
+$full-black: #000;
 
 $grays: () !default;
 $grays: map-merge(
@@ -50,7 +50,7 @@ $uv: #480bff;
 
 // Customize the light and dark text colors for use in our YIQ color contrast function.
 $yiq-text-dark: $black;
-$yiq-text-light: $white;
+$yiq-text-light: lighten($grey, 2%);
 
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
 $yiq-contrasted-threshold: 128;
@@ -262,3 +262,14 @@ $z-depth-5: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22) 
 // Transitions
 $transition-basic: all 0.2s ease-in-out !default;
 $transition-hoverable: all 0.55s ease-in-out !default;
+
+$custom-select-padding-y: 0.5rem;
+$custom-select-padding-x: 1rem;
+$custom-select-bg: rgba(234, 234, 234, 0.75);
+
+$custom-select-disabled-bg: $white;
+$custom-select-border-radius: $border-radius-flat;
+$custom-select-indicator-color: $black;
+$custom-select-bg-size: 8px 10px !default; // In pixels because image dimensions
+
+$custom-select-indicator: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'><path fill='#{$custom-select-indicator-color}' d='M2 0L0 2h4zm0 5L0 3h4z'/></svg>") !default;

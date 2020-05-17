@@ -13,7 +13,7 @@
   font-weight: $input-font-weight;
   line-height: $input-btn-line-height;
   color: $input-color;
-  background-color: transparent;
+  background-color: rgba(234, 234, 234, 0.5);
   background-clip: padding-box;
   background-size: 0 2px, 100% 1px;
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@
     top: -7px;
     margin: 1rem 0 0 0;
     pointer-events: none;
-    color: #d2d2d2;
+    color: lighten($dark, 2.5%);
     transition: all 200ms;
 
     &.light {
