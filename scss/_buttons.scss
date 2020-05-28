@@ -13,7 +13,8 @@
   letter-spacing: 1px;
   outline: 0;
   border: 0;
-  margin: 0.125rem 0.25rem;
+  //margin: 0.125rem 0.25rem;
+  cursor: pointer;
   @include button-size(
     $btn-padding-y,
     $btn-padding-x,
@@ -22,8 +23,6 @@
     $btn-border-radius
   );
   @include transition($btn-transition);
-
-  //@include shadow-4dp();
 
   &.btn-raised {
     @include shadow-2dp();
@@ -60,13 +59,11 @@
   &:not(:disabled):not(.disabled):active,
   &:not(:disabled):not(.disabled).active {
     background-image: none;
-    //@include shadow-4dp();
     box-shadow: none;
 
     &:focus {
       outline: 0;
       box-shadow: none;
-      //@include focus-shadow();
     }
   }
 }
@@ -102,9 +99,7 @@
   @include button-gradient-variant($white, $gradient-blue);
 }
 
-//
 // Block button
-//
 
 .btn-block {
   display: block;
@@ -134,11 +129,9 @@ fieldset:disabled a.btn {
 // Make a button look and behave like a link
 .btn-link {
   font-weight: $font-weight-normal;
-  color: $link-color;
   text-decoration: $link-decoration;
 
   @include hover() {
-    color: $link-hover-color;
     text-decoration: $link-hover-decoration;
   }
 
