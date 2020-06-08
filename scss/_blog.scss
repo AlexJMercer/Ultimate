@@ -26,16 +26,16 @@
 
 .blog-title {
   //font-size: 2.5rem;
-  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
-  font-weight: 900;
+  font-family: "IBM Plex Sans Condensed", "Fira Code", Roboto, sans-serif;
+  font-weight: 700;
   line-height: 1.37;
   margin-bottom: 0.5rem;
 }
 
 .blog-meta {
   font-family: "IBM Plex Sans Condensed", Roboto, sans-serif;
-  font-weight: 500;
-  margin-bottom: 0.25rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
   line-height: 1.37;
 }
 
@@ -129,7 +129,7 @@
     h4,
     h5,
     h6 {
-      font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+      font-family: "IBM Plex Sans Condensed", Roboto, Helvetica, sans-serif;
       margin-top: 1.25rem;
       margin-bottom: 1rem;
     }

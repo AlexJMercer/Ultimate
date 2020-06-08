@@ -52,44 +52,19 @@
       }
     </style>
   </head>
-  <body>
-    <div class="container-fluid my-5">
-      <div class="col-lg-10 offset-lg-1 col-12">
-        <div class="masonry">
-          <div class="masonry-item">
-            <img src="img/emma-esp.jpg" class="img-fluid" alt="" />
-          </div>
-          <div class="masonry-item">
-            <img src="img/Ultimaterising.jpg" class="img-fluid" alt="" />
-          </div>
-          <div class="masonry-item">
-            <img src="img/e-u-p-s.jpg" class="img-fluid" alt="" />
-          </div>
-          <div class="masonry-item">
-            <img src="img/e-w-mv-a-t.jpg" class="img-fluid" alt="" />
-          </div>
-          <div class="masonry-item">
-            <img src="img/kiernan.jpg" class="img-fluid" alt="" />
-          </div>
-          <div class="masonry-item">
-            <img
-              src="dist/ex-img/emma-watson-marianovivanco11-art-test.jpg"
-              class="img-fluid"
-              alt=""
-            />
-          </div>
-          <div class="masonry-item">
-            <img src="dist/ex-img/e-u-g.jpg" class="img-fluid" alt="" />
-          </div>
-          <div class="masonry-item">
-            <img src="dist/ex-img/" class="img-fluid" alt="" />
-          </div>
-          <div class="col-lg-4 col-12 mb-4"></div>
-          <div class="col-lg-4 col-12 mb-4"></div>
-        </div>
+  <body class="bg-dark">
+    <nav class="navbar navbar-expand navbar-dark bg-dark py-md-2">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="dist/img/logo-icon.png"
+            width="65"
+            class="img-fluid brand"
+            alt="Responsive image"
+          />
+        </a>
       </div>
-    </div>
-
+    </nav>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -106,110 +81,5 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
-    <script type="text/javascript">
-      /**
-       * Set appropriate spanning to any masonry item
-       *
-       * Get different properties we already set for the masonry, calculate
-       * height or spanning for any cell of the masonry grid based on its
-       * content-wrapper's height, the (row) gap of the grid, and the size
-       * of the implicit row tracks.
-       *
-       * @param item Object A brick/tile/cell inside the masonry
-       * @link https://w3bits.com/css-grid-masonry/
-       */
-      function resizeMasonryItem(item) {
-        /* Get the grid object, its row-gap, and the size of its implicit rows */
-        var grid = document.getElementsByClassName("masonry")[0];
-        if (grid) {
-          var rowGap = parseInt(
-              window.getComputedStyle(grid).getPropertyValue("grid-row-gap")
-            ),
-            rowHeight = parseInt(
-              window.getComputedStyle(grid).getPropertyValue("grid-auto-rows")
-            ),
-            //gridImagesAsContent = item.querySelector("img.masonry-content");
-
-          /*
-           * Spanning for any brick = S
-           * Grid's row-gap = G
-           * Size of grid's implicitly create row-track = R
-           * Height of item content = H
-           * Net height of the item = H1 = H + G
-           * Net height of the implicit row-track = T = G + R
-           * S = H1 / T
-           */
-          var rowSpan = Math.ceil(
-            (item.querySelector(".masonry-content").getBoundingClientRect()
-              .height +
-              rowGap) /
-              (rowHeight + rowGap)
-          );
-
-          /* Set the spanning as calculated above (S) */
-          item.style.gridRowEnd = "span " + rowSpan;
-          // if (gridImagesAsContent) {
-          //   item.querySelector("img.masonry-content").style.height =
-          //     item.getBoundingClientRect().height + "px";
-          // }
-        }
-      }
-
-      /**
-       * Apply spanning to all the masonry items
-       *
-       * Loop through all the items and apply the spanning to them using
-       * `resizeMasonryItem()` function.
-       *
-       * @uses resizeMasonryItem
-       * @link https://w3bits.com/css-grid-masonry/
-       */
-      function resizeAllMasonryItems() {
-        // Get all item class objects in one list
-        var allItems = document.querySelectorAll(".masonry-item");
-
-        /*
-         * Loop through the above list and execute the spanning function to
-         * each list-item (i.e. each masonry item)
-         */
-        if (allItems) {
-          for (var i = 0; i > allItems.length; i++) {
-            resizeMasonryItem(allItems[i]);
-          }
-        }
-      }
-
-      /**
-       * Resize the items when all the images inside the masonry grid
-       * finish loading. This will ensure that all the content inside our
-       * masonry items is visible.
-       *
-       * @uses ImagesLoaded
-       * @uses resizeMasonryItem
-       * @link https://w3bits.com/css-grid-masonry/
-       */
-      // function waitForImages() {
-      //   //var grid = document.getElementById("masonry");
-      //   var allItems = document.querySelectorAll(".masonry-item");
-      //   if (allItems) {
-      //     for (var i = 0; i < allItems.length; i++) {
-      //       imagesLoaded(allItems[i], function (instance) {
-      //         var item = instance.elements[0];
-      //         resizeMasonryItem(item);
-      //         console.log("Waiting for Images");
-      //       });
-      //     }
-      //   }
-      // }
-
-      /* Resize all the grid items on the load and resize events */
-      var masonryEvents = ["load", "resize"];
-      masonryEvents.forEach(function (event) {
-        window.addEventListener(event, resizeAllMasonryItems);
-      });
-
-      /* Do a resize once more when all the images finish loading */
-      //waitForImages();
-    </script>
   </body>
 </html>

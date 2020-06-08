@@ -76,6 +76,7 @@ $colors: map-merge(
     "grey-blue": $grey-blue,
     "polen": $polen,
     "uv": $uv,
+    "darkest": $full-black,
   ),
   $colors
 );
@@ -96,6 +97,7 @@ $theme-colors: (
   grey-blue: $grey-blue,
   polen: $polen,
   uv: $uv,
+  darkest: $full-black,
 );
 
 $spacer: 1rem;
