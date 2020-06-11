@@ -34,6 +34,10 @@
   }
 }
 
+.card-flat {
+  border-radius: 0 !important;
+}
+
 .card-raised {
   @include shadow-3dp();
 }

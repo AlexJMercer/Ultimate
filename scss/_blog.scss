@@ -41,11 +41,11 @@
 
 @media screen and (max-width: 768px) {
   .blog-title {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 
   .blog-meta {
-    font-size: 1.1875rem;
+    font-size: 1.25rem;
   }
 }
 
@@ -117,10 +117,30 @@
   .post {
     margin-bottom: 2rem;
     line-height: 1.3333;
-    font-size: 1.3125rem; //21px
+    font-size: 1.25rem; //20px
+
+    &.dark-post {
+      color: $grey;
+
+      pre {
+        color: $pink;
+      }
+
+      a {
+        color: $yellow !important;
+
+        :hover {
+          color: lighten($yellow, 2.5%) !important;
+        }
+
+        :visited {
+          color: darken($yellow, 2.5%) !important;
+        }
+      }
+    }
 
     @media screen and (max-width: 992px) {
-      font-size: 1.1875rem; //19px
+      font-size: 1.125rem; //18px
     }
 
     h1,
