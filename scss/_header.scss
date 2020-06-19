@@ -54,7 +54,7 @@
     &-half {
       width: 50%;
 
-      padding: 1rem 1.5rem 3rem;
+      padding: 1rem 2rem 3rem;
       text-align: left;
     }
 
@@ -71,6 +71,14 @@
       }
     }
   }
+}
+
+.header-h-750 {
+  height: 750px !important;
+}
+
+.header-h-full {
+  height: 100vh !important;
 }
 
 .header-profile {

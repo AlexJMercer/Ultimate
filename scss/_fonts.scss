@@ -2,104 +2,146 @@
 
 @font-face {
   font-family: "Roboto Mono";
-  src: url("../fonts/RobotoMono-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
+  src: local("../fonts/RobotoMono-Regular.ttf") format("truetype");
+  src: url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2)
+    format("woff2");
 }
 
 @font-face {
   font-family: "Roboto Mono";
-  src: url("../fonts/RobotoMono-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
+  src: local("../fonts/RobotoMono-Italic.ttf") format("truetype");
+  src: url(https://fonts.gstatic.com/s/robotomono/v7/L0x7DF4xlVMF-BfR8bXMIjhOm32WWg.woff2)
+    format("woff2");
 }
 
 @font-face {
   font-family: "Roboto Mono";
-  src: url("../fonts/RobotoMono-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
+  src: local("../fonts/RobotoMono-Bold.ttf") format("truetype");
+  src: url(https://fonts.gstatic.com/s/robotomono/v7/L0xkDF4xlVMF-BfR8bXMIjDwjmqxf78.woff2)
+    format("woff2");
 }
 
 /* Fira Code */
 
 @font-face {
   font-family: "Fira Code";
-  src: url("../fonts/FiraCode-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
+  src: local("../fonts/FiraCode-Regular.ttf") format("truetype");
+  src: url(https://fonts.gstatic.com/s/firacode/v8/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_D1sJVD7Ng.woff2)
+    format("woff2");
 }
 
 @font-face {
   font-family: "Fira Code";
-  src: url("../fonts/FiraCode-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
+  src: local("../fonts/FiraCode-Medium.ttf") format("truetype");
+  src: url(https://fonts.gstatic.com/s/firacode/v8/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_A9sJVD7Ng.woff2)
+    format("woff2");
 }
 
 @font-face {
   font-family: "Fira Code";
-  src: url("../fonts/FiraCode-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
+  src: local("../fonts/FiraCode-Bold.ttf") format("truetype");
+  src: url(https://fonts.gstatic.com/s/firacode/v8/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_NprJVD7Ng.woff2)
+    format("woff2");
 }
 
 /* IBM Plex Sans Condensed */
 
 @font-face {
   font-family: "IBM Plex Sans Condensed";
-  src: url("../fonts/IBMPlexSansCondensed-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
+  src: local("../fonts/IBMPlexSansCondensed-Regular.ttf") format("truetype");
+  src: url(https://fonts.gstatic.com/s/ibmplexsanscondensed/v6/Gg8lN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYapyK4.woff2)
+    format("woff2");
 }
 
 @font-face {
   font-family: "IBM Plex Sans Condensed";
-  src: url("../fonts/IBMPlexSansCondensed-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
+  src: local("../fonts/IBMPlexSansCondensed-Italic.ttf") format("truetype");
+  src: url(https://fonts.gstatic.com/s/ibmplexsanscondensed/v6/Gg8nN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYas-KzLgA.woff2)
+    format("woff2");
 }
 
 @font-face {
   font-family: "IBM Plex Sans Condensed";
-  src: url("../fonts/IBMPlexSansCondensed-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
+  src: local("../fonts/IBMPlexSansCondensed-Medium.ttf") format("truetype");
+  src: url(https://fonts.gstatic.com/s/ibmplexsanscondensed/v6/Gg8gN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHY5a67vspYY.woff2)
+    format("woff2");
 }
 
 @font-face {
   font-family: "IBM Plex Sans Condensed";
-  src: url("../fonts/IBMPlexSansCondensed-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
+  src: local("../fonts/IBMPlexSansCondensed-Bold.ttf") format("truetype");
+  src: url(https://fonts.gstatic.com/s/ibmplexsanscondensed/v6/Gg8gN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHY4S7bvspYY.woff2)
+    format("woff2");
 }
 
 /* Lora */
 
 @font-face {
   font-family: "Lora";
-  src: url("../fonts/Lora-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
+  src: local("../fonts/Lora-Regular.ttf") format("truetype");
+  src: url(https://fonts.gstatic.com/s/lora/v15/0QI6MX1D_JOuGQbT0gvTJPa787weuxJBkq0.woff2)
+    format("woff2");
 }
 
 @font-face {
   font-family: "Lora";
-  src: url("../fonts/Lora-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
+  src: local("../fonts/Lora-Italic.ttf") format("truetype");
+  src: url(https://fonts.gstatic.com/s/lora/v15/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFoq92nA.woff2)
+    format("woff2");
 }
 
 @font-face {
   font-family: "Lora";
-  src: url("../fonts/Lora-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
+  src: local("../fonts/Lora-Bold.ttf") format("truetype");
+  src: url(https://fonts.gstatic.com/s/lora/v15/0QI6MX1D_JOuGQbT0gvTJPa787z5vBJBkq0.woff2)
+    format("woff2");
 }
 
 @font-face {
   font-family: "Lora";
-  src: url("../fonts/Lora-BoldItalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
+  font-display: swap;
+  src: local("../fonts/Lora-BoldItalic.ttf") format("truetype");
+  src: url(https://fonts.gstatic.com/s/lora/v15/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0Coq92nA.woff2)
+    format("woff2");
 }
