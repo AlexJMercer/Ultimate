@@ -4,7 +4,6 @@
   position: relative;
   width: 100%;
   min-height: 600px;
-  margin-bottom: 2rem;
   overflow: hidden;
   cursor: default;
 
@@ -44,6 +43,7 @@
   }
 
   .header-info {
+    z-index: 100;
     position: absolute;
     top: 0;
     bottom: 0;
