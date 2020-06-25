@@ -370,6 +370,7 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     color: $grey;
+    z-index: 2;
   }
   .card-masonry-area-center {
     position: absolute;
@@ -416,6 +417,7 @@
       top: 0;
       -webkit-transition: all 0.3s;
       transition: all 0.3s;
+      z-index: 1;
     }
     &:hover {
       text-decoration: none;
