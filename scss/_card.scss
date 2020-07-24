@@ -358,7 +358,7 @@
   transition: all 0.3s;
   overflow: hidden;
   text-overflow: ellipsis;
-  min-height: 175px;
+  min-height: 275px;
 
   .card-masonry-area-header {
     position: absolute;
@@ -425,7 +425,7 @@
   }
   .card-masonry-image {
     max-width: 100%;
-    min-height: 175px;
+    min-height: 275px;
     object-fit: cover;
   }
 }

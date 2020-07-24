@@ -28,7 +28,6 @@
   //font-size: 2.5rem;
   font-family: "IBM Plex Sans Condensed", "Fira Code", Roboto, sans-serif;
   font-weight: 700;
-  line-height: 1.37;
   margin-bottom: 0.5rem;
 }
 
@@ -36,7 +35,6 @@
   font-family: "IBM Plex Sans Condensed", Roboto, sans-serif;
   font-weight: 400;
   margin-bottom: 0.5rem;
-  line-height: 1.37;
 }
 
 @media screen and (max-width: 768px) {
@@ -59,13 +57,9 @@
   }
 }
 
-.title-line-height {
-  line-height: 1.37;
-}
-
 .marker {
   padding: 0.125rem 0;
-  line-height: 1.45;
+  line-height: 1.5;
 
   &.marker-link {
     padding: 0.25rem 0.5rem;
@@ -179,6 +173,7 @@
 
     &.base {
       font-family: $font-family-base;
+      font-size: 1.25rem !important;
     }
 
     &.sans {
