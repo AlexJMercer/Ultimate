@@ -494,16 +494,6 @@
       height: 200px;
     }
   }
-
-  // .card-background-image-featured {
-  // max-width: 100%;
-  // object-fit: cover;
-  // }
-
-  /*@include hover(){
-    transform: scale(1.01);
-    -webkit-transform: scale(1.01);
-  }*/
 }
 
 .card-horizontal-post {
@@ -545,5 +535,12 @@
     width: 100%;
     height: 350px;
     object-fit: cover;
+  }
+}
+
+.card-hoverable {
+  @include hover() {
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
   }
 }

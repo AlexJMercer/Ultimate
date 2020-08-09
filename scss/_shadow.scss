@@ -105,9 +105,9 @@
   &-darkblue {
     transition: ease-in 0.2s;
     @include hover() {
-      -webkit-box-shadow: 0px 0px 16px 4px rgba(1, 78, 252, 1) !important;
-      -moz-box-shadow: 0px 0px 16px 4px rgba(1, 78, 252, 1) !important;
-      box-shadow: 0px 0px 16px 4px rgba(1, 78, 252, 1) !important;
+      -webkit-box-shadow: 0px 0px 16px 4px rgba(1, 78, 252, 0.5) !important;
+      -moz-box-shadow: 0px 0px 16px 4px rgba(1, 78, 252, 0.5) !important;
+      box-shadow: 0px 0px 16px 4px rgba(1, 78, 252, 0.5) !important;
       transition: ease-in 0.2s;
     }
   }
@@ -115,9 +115,9 @@
   &-pink {
     transition: ease-in 0.2s;
     @include hover() {
-      -webkit-box-shadow: 0px 0px 16px 4px rgba(227, 6, 145, 1) !important;
-      -moz-box-shadow: 0px 0px 16px 4px rgba(227, 6, 145, 1) !important;
-      box-shadow: 0px 0px 16px 4px rgba(227, 6, 145, 1) !important;
+      -webkit-box-shadow: 0px 0px 16px 4px rgba(227, 6, 145, 0.5) !important;
+      -moz-box-shadow: 0px 0px 16px 4px rgba(227, 6, 145, 0.5) !important;
+      box-shadow: 0px 0px 16px 4px rgba(227, 6, 145, 0.5) !important;
       transition: ease-in 0.2s;
     }
   }
@@ -126,37 +126,36 @@
     transition: ease-in 0.2s;
     @include hover() {
       transition: ease-in 0.2s;
-      -webkit-box-shadow: 0px 0px 16px 4px rgba(245, 191, 5, 1) !important;
-      -moz-box-shadow: 0px 0px 16px 4px rgba(245, 191, 5, 1) !important;
-      box-shadow: 0px 0px 16px 4px rgba(245, 191, 5, 1) !important;
+      -webkit-box-shadow: 0px 0px 16px 4px rgba(245, 191, 5, 0.5) !important;
+      -moz-box-shadow: 0px 0px 16px 4px rgba(245, 191, 5, 0.5) !important;
+      box-shadow: 0px 0px 16px 4px rgba(245, 191, 5, 0.5) !important;
     }
   }
 
   &-uv {
     transition: ease-in 0.2s;
     @include hover() {
-      -webkit-box-shadow: 0px 0px 16px 4px rgba(72, 11, 255, 1) !important;
-      -moz-box-shadow: 0px 0px 16px 4px rgba(72, 11, 255, 1) !important;
-      box-shadow: 0px 0px 16px 4px rgba(72, 11, 255, 1) !important;
+      -webkit-box-shadow: 0px 0px 16px 4px rgba(72, 11, 255, 0.5) !important;
+      -moz-box-shadow: 0px 0px 16px 4px rgba(72, 11, 255, 0.5) !important;
+      box-shadow: 0px 0px 16px 4px rgba(72, 11, 255, 0.5) !important;
       transition: ease-in 0.2s;
     }
   }
   &-blue {
     transition: ease-in 0.2s;
     @include hover() {
-      -webkit-box-shadow: 0px 0px 16px 4px rgba(3, 169, 244, 1) !important;
-      -moz-box-shadow: 0px 0px 16px 4px rgba(3, 169, 244, 1) !important;
-      box-shadow: 0px 0px 16px 4px rgba(3, 169, 244, 1) !important;
+      -webkit-box-shadow: 0px 0px 16px 4px rgba(3, 169, 244, 0.5) !important;
+      -moz-box-shadow: 0px 0px 16px 4px rgba(3, 169, 244, 0.5) !important;
+      box-shadow: 0px 0px 16px 4px rgba(3, 169, 244, 0.5) !important;
       transition: ease-in 0.2s;
     }
   }
-
   &-red {
     transition: ease-in 0.2s;
     @include hover() {
-      -webkit-box-shadow: 0px 0px 16px 4px rgba(235, 30, 50, 1) !important;
-      -moz-box-shadow: 0px 0px 16px 4px rgba(235, 30, 50, 1) !important;
-      box-shadow: 0px 0px 16px 4px rgba(235, 30, 50, 1) !important;
+      -webkit-box-shadow: 0px 0px 16px 4px rgba(235, 30, 50, 0.5) !important;
+      -moz-box-shadow: 0px 0px 16px 4px rgba(235, 30, 50, 0.5) !important;
+      box-shadow: 0px 0px 16px 4px rgba(235, 30, 50, 0.5) !important;
       transition: ease-in 0.2s;
     }
   }
@@ -164,9 +163,9 @@
   &-green {
     transition: ease-in 0.2s;
     @include hover() {
-      -webkit-box-shadow: 0px 0px 16px 4px rgba(133, 235, 217, 1);
-      -moz-box-shadow: 0px 0px 16px 4px rgba(133, 235, 217, 1);
-      box-shadow: 0px 0px 16px 4px rgba(133, 235, 217, 1);
+      -webkit-box-shadow: 0px 0px 16px 4px rgba(133, 235, 217, 0.5);
+      -moz-box-shadow: 0px 0px 16px 4px rgba(133, 235, 217, 0.5);
+      box-shadow: 0px 0px 16px 4px rgba(133, 235, 217, 0.5);
       transition: ease-in 0.2s;
     }
   }
@@ -174,9 +173,19 @@
   &-light {
     transition: ease-in 0.2s;
     @include hover() {
-      -webkit-box-shadow: 0px 0px 16px 4px rgba(225, 255, 255, 1) !important;
-      -moz-box-shadow: 0px 0px 16px 4px rgba(225, 255, 255, 1) !important;
-      box-shadow: 0px 0px 16px 4px rgba(225, 255, 255, 1) !important;
+      -webkit-box-shadow: 0px 0px 16px 4px rgba(225, 255, 255, 0.5) !important;
+      -moz-box-shadow: 0px 0px 16px 4px rgba(225, 255, 255, 0.5) !important;
+      box-shadow: 0px 0px 16px 4px rgba(225, 255, 255, 0.5) !important;
+      transition: ease-in 0.2s;
+    }
+  }
+
+  &-dark {
+    transition: ease-in 0.2s;
+    @include hover() {
+      -webkit-box-shadow: 0px 0px 16px 4px rgba(18, 18, 18, 0.5) !important;
+      -moz-box-shadow: 0px 0px 16px 4px rgba(18, 18, 18, 0.5) !important;
+      box-shadow: 0px 0px 16px 4px rgba(18, 18, 18, 0.5) !important;
       transition: ease-in 0.2s;
     }
   }

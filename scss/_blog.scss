@@ -168,7 +168,11 @@
 
     &.monospace {
       font-family: $font-family-monospace;
-      font-size: 1.1875rem !important;
+      font-size: 1rem !important;
+
+      @media screen and (max-width: 992px) {
+        font-size: 1rem !important;
+      }
     }
 
     &.base {
