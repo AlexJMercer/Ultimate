@@ -78,7 +78,7 @@
 }
 
 .header-h-full {
-  height: 100vh !important;
+  height: 90vh !important;
 }
 
 .header-profile {
@@ -180,6 +180,26 @@
   @media screen and (max-width: 768px) {
     &-image-top {
       height: 425px;
+    }
+    &-image-parallax {
+      height: 375px;
+    }
+  }
+}
+
+.header-border {
+  &-left {
+    border-bottom-left-radius: 0.5rem !important;
+  }
+
+  &-right {
+    border-bottom-right-radius: 0.5rem !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    &-left,
+    &-right {
+      border-radius: 0 !important;
     }
   }
 }

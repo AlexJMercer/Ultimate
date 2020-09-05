@@ -2,8 +2,8 @@
 
 .btn {
   display: inline-block;
-  font-family: $headings-font-family;
-  font-weight: 600;
+  font-family: "Roboto Mono", "Fira Code", monospace;
+  font-weight: 700;
   color: $body-color;
   text-align: center;
   vertical-align: middle;
@@ -13,7 +13,7 @@
   letter-spacing: 1px;
   outline: 0;
   border: 0;
-  //margin: 0.125rem 0.25rem;
+  margin: 0.125rem;
   cursor: pointer;
   @include button-size(
     $btn-padding-y,
