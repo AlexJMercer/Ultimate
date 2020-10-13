@@ -2,14 +2,14 @@
 
 .btn {
   display: inline-block;
-  font-family: "Roboto Mono", "Fira Code", monospace;
-  font-weight: 700;
+  font-family: "Fira Code", "Roboto Mono", monospace;
+  font-weight: 500;
   color: $body-color;
   text-align: center;
   vertical-align: middle;
   user-select: none;
   background-color: transparent;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 1px;
   outline: 0;
   border: 0;

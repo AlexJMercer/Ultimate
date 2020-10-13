@@ -40,7 +40,9 @@
   box-shadow: none !important;
 
   @include hover() {
-    color: darken($color, 12.5%);
+    transition: ease-in 0.2s;
+    background-color: $color;
+    color: color-yiq($color);
   }
 
   &:focus,
@@ -57,7 +59,7 @@
   &:not(:disabled):not(.disabled):active,
   &:not(:disabled):not(.disabled).active,
   .show > &.dropdown-toggle {
-    color: $color;
+    color: color-yiq($color);
     box-shadow: none;
 
     &:focus {
@@ -78,8 +80,10 @@
   background-image: none;
 
   @include hover {
-    color: darken($color, 7.5%);
-    border: 2px solid darken($color, 7.5%);
+    transition: ease-in 0.2s;
+    color: darken($color, 10%);
+    border: 2px solid darken($color, 12%);
+    background-color: #{$color}0d;
   }
 
   &.disabled,

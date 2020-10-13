@@ -40,6 +40,11 @@
 
 .card-raised {
   @include shadow-3dp();
+
+  @include hover() {
+    transition: ease-in 0.2s;
+    @include shadow-z-2();
+  }
 }
 
 .card-plain {
