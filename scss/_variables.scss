@@ -98,6 +98,7 @@ $theme-colors: (
   polen: $polen,
   uv: $uv,
   darkest: $full-black,
+  teal: $teal,
 );
 
 $spacer: 1rem;
@@ -154,9 +155,9 @@ $font-family-base: $font-family-sans-serif;
 
 $font-family-serif: "Lora", Georgia, serif;
 $font-family-monospace: "Roboto Mono", Consolas, monospace;
-$font-family-sans-extra: "IBM Plex Sans Condensed", "Roboto", sans-serif;
+$font-family-sans-extra: "Exo 2", "Roboto", sans-serif;
 
-$headings-font-family: "IBM Plex Sans Condensed", sans-serif;
+$headings-font-family: "Exo 2", sans-serif;
 //$headings-color:          $black;
 
 $navbar-padding-y: 0.75rem;
