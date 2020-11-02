@@ -45,6 +45,7 @@ $black: #121212;
 $grey: #eaeaea;
 $grey-blue: #1f2251;
 $polen: #fff6dd;
+$neon-yellow: #ffff00;
 //$uv: #6733ff;
 $uv: #480bff;
 //$uv: #3e04b4;
@@ -77,6 +78,7 @@ $colors: map-merge(
     "polen": $polen,
     "uv": $uv,
     "darkest": $full-black,
+    "neon-yellow": $neon-yellow,
   ),
   $colors
 );
@@ -99,6 +101,7 @@ $theme-colors: (
   uv: $uv,
   darkest: $full-black,
   teal: $teal,
+  neon-yellow: $neon-yellow,
 );
 
 $spacer: 1rem;
