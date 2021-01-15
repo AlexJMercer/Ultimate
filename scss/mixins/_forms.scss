@@ -16,7 +16,7 @@
     background-color: rgba(234, 234, 234, 0.9);
     background-size: 100% 2px, 100% 1px;
     box-shadow: none;
-    transition-duration: 0.3s;
+    transition-duration: 0.4s;
   }
   @include deprecate(
     "The `form-control-focus()` mixin",
