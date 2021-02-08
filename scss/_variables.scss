@@ -166,13 +166,15 @@ $card-bg: $grey;
 
 $font-weight-custom: 600;
 $font-size-custom: 0.75rem;
-$font-family-sans-serif: "Fira Code", "Roboto", -apple-system,
-  BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$font-family-sans-serif: "Overpass", "Roboto", -apple-system, BlinkMacSystemFont,
+  "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 $font-family-base: $font-family-sans-serif;
 
 $font-family-serif: "Lora", Georgia, serif;
-$font-family-monospace: "Roboto Mono", Consolas, monospace;
+$font-family-monospace: "IBM Plex Mono", Consolas, monospace;
 $font-family-sans-extra: "Exo 2", "Roboto", sans-serif;
+
+$font-weight-base: 300;
 
 $headings-font-family: "Exo 2", sans-serif;
 //$headings-color:          $black;

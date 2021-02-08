@@ -13,8 +13,7 @@
   background-color: lighten($card-bg, 7.5%);
   background-clip: border-box;
   border: none;
-
-  @include border-radius($border-radius);
+  border-radius: 0.5rem;
 
   > hr {
     margin-right: 0;

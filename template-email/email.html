@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style type="text/css">
+      @font-face {
+        font-family: "Interstate-BlackCondItalic";
+        src: url(fonts/Interstate-BlackCondItalic.woff) format("woff"),
+          url(fonts/Interstate-BlackCondItalic.ttf) format("truetype");
+      }
+
+      body {
+        margin: 0 auto;
+        max-width: 800px;
+        min-width: 400px;
+        height: auto;
+        background-color: #000000;
+        font-family: "Source Sans Pro", sans-serif;
+      }
+      .email-container {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 32px;
+        padding-right: 32px;
+        /* background-color: #000000; */
+      }
+      .email-header {
+        padding: 40px 0;
+        /* background-color: #000000; */
+      }
+      .email-header-logo {
+        margin: 24px auto;
+        display: block;
+      }
+      .email-body {
+        padding: 16px 0;
+      }
+      .email-body-receiver {
+        color: #00b9fe;
+        text-transform: uppercase;
+        font-family: "Interstate-BlackCondItalic", "Source Sans Pro", fantasy;
+        font-style: italic;
+        font-weight: 900;
+        margin: 0;
+        font-size: 32px;
+      }
+      .email-body-subtitle {
+        color: #fff;
+        text-transform: uppercase;
+        font-family: "Interstate-BlackCondItalic", "Source Sans Pro", fantasy;
+        font-style: italic;
+        font-weight: 900;
+        margin: 0;
+        font-size: 32px;
+      }
+      .email-body-description {
+        color: #fff;
+        margin: 24px 0;
+        line-height: 1.5;
+        font-size: 16px;
+      }
+      .email-box {
+        background-color: #1a1a1a;
+        border-radius: 4px;
+      }
+      .email-box-title {
+        color: #fff;
+        text-align: center;
+        padding: 16px 0;
+        margin: 0;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .email-box-code {
+        color: #00b9fe;
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        padding: 0 0 20px;
+        letter-spacing: 12px;
+        font-size: 64px;
+        font-family: "Interstate-BlackCondItalic", "Source Sans Pro", fantasy;
+        margin: 0;
+      }
+      .email-cancel-subscription {
+        color: #fff;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .email-footer {
+        /* background-color: #000; */
+        padding: 20px;
+      }
+
+      .email-footer-text {
+        color: #ffffff;
+        text-align: center;
+        font-size: 12px;
+        margin: 8px 0;
+      }
+
+      .inline-icon {
+        vertical-align: middle;
+        margin: 0 4px;
+      }
+
+      .linear-background {
+        background-image: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0) 20%,
+            rgba(0, 0, 0, 1) 80%
+          ),
+          url("img/rock-in-rio.png");
+        background-position: top, center;
+        background-size: cover, cover;
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <table width="100%" align="center" style="padding: 0 24px">
+      <thead>
+        <td align="center" class="email-header">
+          <img src="img/chaos.png" class="email-header-logo" alt="" />
+        </td>
+      </thead>
+      <tbody>
+        <tr class="email-container">
+          <td>
+            <h4 class="email-body-receiver">Ultimate Mercer</h4>
+            <h4 class="email-body-subtitle">Precisamos da sua confirmação</h4>
+            <p class="email-body-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde vel
+              maiores eos consectetur ex minima esse iste, neque numquam est
+              dolores.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="email-body">
+            <div class="email-box">
+              <p class="email-box-title">Código de acesso</p>
+              <h1 class="email-box-code">123456</h1>
+            </div>
+          </td>
+        </tr>
+        <tr style="width: 100%; height: 600px">
+          <td class="linear-background" style="vertical-align: initial">
+            <p
+              class="email-body-description"
+              style="margin-top: 0; padding-top: 8px"
+            >
+              Obrigada,
+            </p>
+            <p class="email-body-description" style="margin-bottom: 0">
+              Time CHAOS
+            </p>
+          </td>
+        </tr>
+        <tr class="email-footer">
+          <td>
+            <p class="email-footer-text">
+              <a class="email-cancel-subscription" href=""
+                >Cancelar inscrição</a
+              >
+              de qualquer comunicação relativa a este convite.
+            </p>
+            <p class="email-footer-text">
+              Feito movido a
+              <img src="img/song.png" class="inline-icon" alt="" />, e com o
+              coração <img src="img/heart.png" class="inline-icon" alt="" /> por
+              BOHR
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <header class="email-header">
+      <img src="img/chaos.png" class="email-header-logo" alt="" />
+    </header>
+    <section class="email-container">
+      <h4 class="email-body-receiver">Ultimate Mercer</h4>
+      <h4 class="email-body-subtitle">Precisamos da sua confirmação</h4>
+      <p class="email-body-description">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde vel
+        maiores eos consectetur ex minima esse iste, neque numquam est dolores.
+      </p>
+
+      <div class="email-body">
+        <div class="email-box">
+          <p class="email-box-title">Código de acesso</p>
+          <h1 class="email-box-code">123456</h1>
+        </div>
+      </div>
+    </section>
+    <div style="width: 100%; height: 600px" class="linear-background">
+      <div class="email-container">
+        <p
+          class="email-body-description"
+          style="margin-top: 0; padding-top: 8px"
+        >
+          Obrigada,
+        </p>
+        <p class="email-body-description" style="margin-bottom: 0">
+          Time CHAOS
+        </p>
+      </div>
+    </div>
+
+    <footer class="email-footer">
+      <p class="email-footer-text">
+        <a class="email-cancel-subscription" href="">Cancelar inscrição</a>
+        de qualquer comunicação relativa a este convite.
+      </p>
+      <p class="email-footer-text">
+        Feito movido a
+        <img src="img/song.png" class="inline-icon" alt="" />, e com o coração
+        <img src="img/heart.png" class="inline-icon" alt="" /> por BOHR
+      </p>
+    </footer>
+  </body>
+</html>
